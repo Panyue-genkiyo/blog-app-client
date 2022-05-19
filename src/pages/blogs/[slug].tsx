@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import {useLocation, useNavigate, useParams} from "react-router-dom";
 import {useQueryClient} from 'react-query';
-import {IParams} from "../../types/Typescript";
+import {IParams} from "../../types/globalTypes";
 import {categoriesData} from "../../types/rq-types/categoryTypes";
 import {useCategoryBlogs} from "../../hooks/rq-hooks/useBlogs";
 import Loading from "../../components/global/Loading";
