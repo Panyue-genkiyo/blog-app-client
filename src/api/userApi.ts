@@ -2,7 +2,7 @@ import { getAPI, patchAPI } from "../utils/fetchData";
 import { checkTokenExpire } from "../utils/checkTokenExpire";
 import { checkPassword } from "../utils/validate";
 import imageUpload, { checkImage } from "../utils/imageUpload";
-import { IUser } from "../types/Typescript";
+import { IUser } from "../types/globalTypes";
 import { updateUserParamsType, resetPasswordParamsType } from "../types/rq-types/userTypes";
 import {setAlert} from "../features/alert";
 import {setAuth} from "../features/auth";
