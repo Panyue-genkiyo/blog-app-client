@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {useNavigate, useParams} from "react-router-dom";
-import { IParams  } from '../../types/Typescript';
+import { IParams  } from '../../types/globalTypes';
 import { postAPI } from "../../utils/fetchData";
 import { showErrMsg, showSuccessMsg } from '../../components/alert/Alert'
 import {useAppDispatch} from "../../hooks/redux-hooks";
