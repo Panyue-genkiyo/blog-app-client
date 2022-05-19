@@ -1,5 +1,5 @@
 import {useInfiniteQuery, useMutation, useQuery, useQueryClient} from "react-query";
-import {IBlog} from "../../types/Typescript";
+import {IBlog} from "../../types/globalTypes";
 import {HomeBlogs, IBlogsCategory, IBlogsUser} from "../../types/rd-types/blogTypes";
 import {likeSaveCURDBlogParams} from "../../types/rq-types/blogTypes";
 import {
