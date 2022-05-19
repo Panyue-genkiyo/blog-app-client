@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import { IUser } from '../../types/Typescript'
+import { IUser } from '../../types/globalTypes'
 
 interface IProps {
     user: IUser
