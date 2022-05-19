@@ -1,6 +1,6 @@
 import React, {useEffect, useState, useRef, useMemo} from 'react';
 import LiteQuill from "../editor/LiteQuill";
-import {IComment} from "../../types/Typescript";
+import {IComment} from "../../types/globalTypes";
 import {useAppSelector} from "../../hooks/redux-hooks";
 
 interface IProps {
