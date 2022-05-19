@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { forgotPassword } from "../features/auth";
-import {FormSubmit} from "../types/Typescript";
+import {FormSubmit} from "../types/globalTypes";
 import useCheckIfLoggedIn from "../hooks/util-hooks/useCheckIfLoggedIn";
 import {useAppDispatch} from "../hooks/redux-hooks";
 
