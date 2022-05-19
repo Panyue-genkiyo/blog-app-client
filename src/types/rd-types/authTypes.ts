@@ -1,4 +1,4 @@
-import { IUser } from '../Typescript'
+import { IUser } from '../globalTypes'
 
 export interface IAuth  {
     msg?:string

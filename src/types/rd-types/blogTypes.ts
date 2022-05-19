@@ -1,4 +1,4 @@
-import {IBlog} from '../Typescript';
+import {IBlog} from '../globalTypes';
 
 interface IHomeBlogs {
    _id: string,
