@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation} from "react-router-dom";
-import {InputChange, IUserProfile, FormSubmit} from '../../types/Typescript'
+import {InputChange, IUserProfile, FormSubmit} from '../../types/globalTypes'
 import NotFound from "../global/NotFound";
 import {useResetPasswordMutation, useUpdateUserInfoMutation} from "../../hooks/rq-hooks/useUser";
 import {useAppDispatch, useAppSelector} from "../../hooks/redux-hooks";
