@@ -1,9 +1,9 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import {IAuth} from "../../types/rd-types/authTypes";
-import {IUserLogin, IUserRegister} from "../../types/Typescript";
+import {IUserLogin, IUserRegister} from "../../types/globalTypes";
 import {getAPI, postAPI} from "../../utils/fetchData";
 import {setAlert} from "../alert";
-import {DispatchReturnType} from "../types";
+import {DispatchReturnType} from "../../types/globalTypes";
 import {validRegister} from "../../utils/validate";
 import {checkTokenExpire} from "../../utils/checkTokenExpire";
 
