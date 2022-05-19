@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
 import { IAuth } from "../../types/rd-types/authTypes";
-import {tokenAndDispatch} from "../../types/Typescript";
+import {tokenAndDispatch} from "../../types/globalTypes";
 import { getRefreshToken, getIsLogged } from "../../api/authApi";
 import {setAlert} from "../../features/alert";
 
