@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {Link, useLocation, useNavigate} from 'react-router-dom';
 import {Text} from "@mantine/core";
-import {IBlog, IUser} from "../../types/Typescript";
+import {IBlog, IUser} from "../../types/globalTypes";
 import Input from '../comments/Input';
 import Comments from "../comments/Comments";
 import Loading from "../global/Loading";
