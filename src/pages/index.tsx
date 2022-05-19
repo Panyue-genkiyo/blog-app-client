@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useQueryClient } from "react-query";
 import { Link } from 'react-router-dom';
 import { Button } from "@mantine/core";
-import { IBlog } from "../types/Typescript";
+import { IBlog } from "../types/globalTypes";
 import CardVert from "../components/cards/CardVert";
 import NotContent from "../components/global/NotContent";
 import { useHomeBlogs } from "../hooks/rq-hooks/useBlogs";
