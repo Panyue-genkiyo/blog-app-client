@@ -1,6 +1,6 @@
 import jwt_decode  from 'jwt-decode';
 import axios from 'axios';
-import {DispatchReturnType} from "../features/types";
+import {DispatchReturnType} from "../types/globalTypes";
 import {setAlert} from "../features/alert";
 
 interface IToken{
