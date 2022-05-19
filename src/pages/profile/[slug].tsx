@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, Routes, Route } from "react-router-dom";
 import { Skeleton } from "@mantine/core";
-import {IParams} from "../../types/Typescript";
+import {IParams} from "../../types/globalTypes";
 import OtherInfo from "../../components/profile/OtherInfo";
 import UserInfo from "../../components/profile/UserInfo";
 import ProfileNavBar from "../../components/global/ProfileNavBar";
