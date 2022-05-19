@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import { useQueryClient } from "react-query";
-import { IBlog, InputChange } from '../../types/Typescript'
+import { IBlog, InputChange } from '../../types/globalTypes'
 import { categoriesData } from "../../types/rq-types/categoryTypes";
 import {useAppDispatch, useAppSelector} from "../../hooks/redux-hooks";
 import {setProfileBlogThumbnail, setThumbnail} from "../../features/picFile";
