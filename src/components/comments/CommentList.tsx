@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useNavigate, useParams} from "react-router-dom";
 import { useQueryClient } from "react-query";
-import {IComment,IUser, IParams, IBlog} from "../../types/Typescript";
+import {IComment,IUser, IParams, IBlog} from "../../types/globalTypes";
 import Input from "./Input";
 import {useDeleteCommentMutation, useReplyCommentMutation, useUpdateCommentMutation} from "../../hooks/rq-hooks/useComments";
 import {useAppDispatch, useAppSelector} from "../../hooks/redux-hooks";
