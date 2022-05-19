@@ -1,7 +1,7 @@
 import React,{ useState, useRef, useEffect } from 'react';
 import { useQueryClient } from "react-query";
 import {Text} from "@mantine/core";
-import {IBlog, IUser} from "../types/Typescript";
+import {IBlog, IUser} from "../types/globalTypes";
 import NotFound from "../components/global/NotFound";
 import CreateForm from "../components/cards/CreateForm";
 import CardHoriz from '../components/cards/CardHoriz';
