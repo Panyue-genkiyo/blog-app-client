@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={`text-center bg-light py-4 ${theme && 'footer-night'}`}>
             <h6>欢迎来到pan's社群博客分享平台</h6>
             <a
-                href="https://github.com/Panyue-genkiyo/blog-project"
+                href="https://github.com/Panyue-genkiyo/blog-app-client"
                 target='_blank' rel='noreferrer'
                 className='mb-2 d-block'
             >
