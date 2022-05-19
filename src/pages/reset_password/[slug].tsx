@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useNavigate, useParams} from "react-router-dom";
-import {FormSubmit} from "../../types/Typescript";
+import {FormSubmit} from "../../types/globalTypes";
 import {useResetPasswordMutation} from "../../hooks/rq-hooks/useUser";
 import useCheckIfLoggedIn from "../../hooks/util-hooks/useCheckIfLoggedIn";
 import {useAppDispatch, useAppSelector} from "../../hooks/redux-hooks";
