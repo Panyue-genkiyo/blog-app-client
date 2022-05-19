@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {useParams} from "react-router-dom";
-import {IParams} from "../../types/Typescript";
+import {IParams} from "../../types/globalTypes";
 import {useBlogs} from "../../hooks/rq-hooks/useBlogs";
 import DisplayBlog from "../../components/blog/DisplayBlog";
 import NotFound from "../../components/global/NotFound";
