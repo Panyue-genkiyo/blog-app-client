@@ -1,4 +1,4 @@
-import { IComment, tokenAndDispatch } from "../Typescript";
+import { IComment, tokenAndDispatch } from "../globalTypes";
 
 export interface ICommentState{
     comments: IComment[],

@@ -1,4 +1,4 @@
-import { ICategory, tokenAndDispatch } from "../Typescript";
+import { ICategory, tokenAndDispatch } from "../globalTypes";
 
 export interface addCategoryParams extends tokenAndDispatch {
     newCategoryName: string;

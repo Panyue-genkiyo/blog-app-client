@@ -1,6 +1,5 @@
-import { tokenAndDispatch, IBlog } from "../Typescript";
+import { tokenAndDispatch, IBlog } from "../globalTypes";
 import { NavigateFunction } from "react-router-dom";
-import React from "react";
 
 export  interface likeSaveCURDBlogParams extends tokenAndDispatch{
     blog: IBlog;
