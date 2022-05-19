@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {Link, useParams} from 'react-router-dom';
 import { useModals } from "@mantine/modals";
-import {IBlog, IUser} from "../../types/Typescript";
+import {IBlog, IUser} from "../../types/globalTypes";
 import {useDeleteBlogMutation} from "../../hooks/rq-hooks/useBlogs";
 import {Text, Button} from "@mantine/core";
 import {useAppDispatch, useAppSelector} from "../../hooks/redux-hooks";
