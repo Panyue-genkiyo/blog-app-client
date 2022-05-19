@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {useQueryClient} from "react-query";
-import {IBlog, IComment} from '../../types/Typescript'
+import {IBlog, IComment} from '../../types/globalTypes'
 import {ICommentState} from "../../types/rq-types/commentTypes";
 import {useLocation} from "react-router-dom";
 import {useAppSelector} from "../../hooks/redux-hooks";
