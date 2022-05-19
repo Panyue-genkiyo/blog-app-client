@@ -1,4 +1,4 @@
-import {IUserRegister, IBlog} from "../types/Typescript";
+import {IUserRegister, IBlog} from "../types/globalTypes";
 
 //检查邮箱格式
 export const validateEmail = (email: string) => {
