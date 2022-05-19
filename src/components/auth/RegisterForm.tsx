@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import { InputChange, FormSubmit } from "../../types/Typescript";
+import { InputChange, FormSubmit } from "../../types/globalTypes";
 import { register } from "../../features/auth";
 import {useAppDispatch} from "../../hooks/redux-hooks";
 
