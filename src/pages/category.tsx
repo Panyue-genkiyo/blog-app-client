@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useModals } from "@mantine/modals";
 import { Text } from '@mantine/core';
-import {FormSubmit, ICategory} from "../types/Typescript";
+import {FormSubmit, ICategory} from "../types/globalTypes";
 import NotFound from "../components/global/NotFound";
 import {useQueryClient} from "react-query";
 import {useAddCategoryMutation, useDeleteCategoryMutation, useUpdateCategoryMutation} from "../hooks/rq-hooks/useCategories";
