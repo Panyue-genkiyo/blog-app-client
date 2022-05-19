@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import { IBlog } from "../../types/Typescript";
+import { IBlog } from "../../types/globalTypes";
 import { Heart,  Bookmark  } from 'tabler-icons-react';
 import { Button } from '@mantine/core';
 import {useAppDispatch, useAppSelector} from "../../hooks/redux-hooks";
