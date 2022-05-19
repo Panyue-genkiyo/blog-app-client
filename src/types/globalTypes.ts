@@ -1,5 +1,8 @@
 import {ChangeEvent, FormEvent} from 'react';
-import {DispatchReturnType} from "../features/types";
+
+import {useAppDispatch} from "../hooks/redux-hooks";
+
+export type DispatchReturnType = ReturnType<typeof useAppDispatch>
 
 export type InputChange = ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement >
 
