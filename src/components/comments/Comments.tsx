@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {IComment} from "../../types/Typescript";
+import {IComment} from "../../types/globalTypes";
 import AvatarComment from "./AvatarComment";
 import AvatarReply from "./AvatarReply";
 import CommentList from "./CommentList";
