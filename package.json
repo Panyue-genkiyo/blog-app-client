@@ -9,6 +9,7 @@
     "@mantine/modals": "^4.2.2",
     "@mantine/notifications": "^4.2.2",
     "@modulz/radix-icons": "^4.0.0",
+    "@react-oauth/google": "^0.2.2",
     "@reduxjs/toolkit": "^1.7.0-rc.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",

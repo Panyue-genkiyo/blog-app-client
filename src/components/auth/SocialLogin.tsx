@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { GoogleLogin, GoogleLoginResponse } from 'react-google-login-lite';
 import { FacebookLogin, FacebookLoginAuthResponse } from 'react-facebook-login-lite';
 import { googleLogin, facebookLogin } from "../../features/auth";
+import { gapi } from 'gapi-script'
 
 import {useAppDispatch, useAppSelector} from "../../hooks/redux-hooks";
 
@@ -18,6 +19,15 @@ const SocialLogin = () => {
         const { accessToken, userID } = facebookLoginAuthResponse.authResponse;
         dispatch(facebookLogin(accessToken, userID));
     }
+
+    useEffect(() => {
+        gapi.load('client:auth2', () => {
+           gapi.client.init({
+                clientId: '261918664418-ba8qg8mdbuuljkhj7vqp8oo9lucsju0u.apps.googleusercontent.com',
+                plugin_name: "chat"
+            })
+        });
+    }, [])
 
     return (
         <>
